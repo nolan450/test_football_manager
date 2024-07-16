@@ -3,3 +3,18 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+api_leagues:
+    path: /api/leagues
+    controller: App\Controller\LeagueController::index
+    methods: GET
+
+api_league:
+    path: /api/leagues/{id}
+    controller: App\Controller\LeagueController::show
+    methods: GET
+
+api_create_league:
+    path: /api/leagues
+    controller: App\Controller\LeagueController::create
+    methods: POST
