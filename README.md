@@ -26,7 +26,7 @@ Football League Manager is a web application for managing football leagues, allo
 1. **Clone the repository:**
 
     ```bash
-    git clone <URL_DU_DEPOT_GIT>
+    git clone https://github.com/nolan450/test_football_manager
     cd football-league-manager
     ```
 
